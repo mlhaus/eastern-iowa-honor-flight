@@ -24,7 +24,7 @@ h1 {
   font-size: 30px;
 }
 
-h2 {
+header h2 {
   display: inline-block;
   width: 25%;
   /* background-color: blue; */
@@ -34,28 +34,78 @@ h2 {
 }
 
 nav {
-  background-color: white;
+  background-color: #999999;
 }
 
-ul {
+nav ul {
   /* background-color: red; */
   padding-left: 40px;
   font-size: 0;
 }
 
-li {
+nav li {
   /* background-color: green; */
   display: inline-block;
   font-size: 16px;
 }
 
-a {
+nav a {
   padding: 10px;
   display: inline-block;
   text-decoration: none;
+  color: black;
 }
 
 a:hover {
   background-color: blue;
   color: white;
+}
+
+main {
+  background-color: white;
+  font-size: 0;
+  
+}
+
+section {
+  /* background-color: red; */
+  display: inline-block;
+  font-size: 16px;
+  width: 60%;
+  border-right: 3px solid #333333;
+  padding: 20px 20px 30px 50px;
+}
+
+aside {
+  /* background-color: green; */
+  display: inline-block;
+  font-size: 16px;
+  width: 40%;
+  vertical-align: top;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px 50px;
+}
+
+footer p {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+section p {
+  margin: 5px 0;
+  /* background-color: red; */
+}
+
+.right {
+  width: 300px;
+  float: right;
+  margin-left: 20px;
+  border: 1px solid #555555;
+  padding: 10px;
 }
